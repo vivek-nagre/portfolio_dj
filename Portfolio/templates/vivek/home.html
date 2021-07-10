@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{%static 'css/bootstrap.min.css'%}">
+  <link rel="stylesheet" href="{%static 'css/style.css'%}">
+
+  <title>Mr.Vivek</title>
+</head>
+
+<body>
+  <header>
+    <div class="bg-dark collapse" id="navbarHeader" >
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+            <h4 class="text-white">About</h4>
+            <p class="text-white">Add some information about the album below, the author, or any other background
+              context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off
+              to some social networking sites or contact information.</p>
+          </div>
+          <div class="col-sm-4  py-4 mylink">
+            <h4 class="text-white">Contact</h4>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-white">Follow on github</a></li>
+              <li><a href="#" class="text-white">Like on Hackerrank</a></li>
+              <li><a href="#" class="text-white">Email twitter</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+
+          <strong>Vivek nagre</strong> <small class=" text-mute fst-italic mx-3"> system analyst</small>
+        </a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
+          aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <!-- image -->
+  <section class="py-2 text-center container-fluid bg-light " id="mybag">
+    <div class="row py-lg-3">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <img class="rounded-circle" src="{%static 'img/vivek.jpg'%}" height="250px"><br>
+        <a href="#" class="btn btn-primary my-3">contact me </a>
+        <a href="#" class="btn btn-secondary my-3">My projects</a>
+
+
+      </div>
+    </div>
+  </section>
+  <hr class="shadow p-2 mb-3  rounded border border-danger">
+
+  <!-- actual all contatint -->
+  <!-- resume -->
+  <table class="table container table-bordered">
+    <thead>
+      <tr class="text-center">
+        <!-- <th scope="col">Sr,No</th> -->
+        <th scope="col">Education</th>
+        <th scope="col">University</th>
+        <th scope="col">CGPA/Percentage</th>
+      </tr>
+    </thead>
+    <tbody class="text-center ">
+      <tr>
+        <!-- <th scope="row">1</th> -->
+        <td>M.Sc Information technology</td>
+        <td>Dr.Babasaheb ambedkar <br>
+          marthwada university aurangabad</td>
+        <td>9.37</td>
+      </tr>
+      <tr>
+        <!-- <th scope="row">2</th> -->
+        <td>B.Sc Forensic science</td>
+        <td>Dr.Babasaheb ambedkar <br>
+          marthwada university aurangabad</td>
+        <td>6.3</td>
+      </tr>
+      <tr>
+        <!-- <th scope="row">3</th> -->
+        <td>HSC</td>
+        <td> Maharashtra State Board of Secondary <br>
+          & Higher Secondary Education</td>
+        <td>83.21</td>
+      </tr>
+      <tr>
+        <!-- <th scope="row">4</th> -->
+        <td>SSC</td>
+        <td> Maharashtra State Board of Secondary <br>
+          & Higher Secondary Education</td>
+        <td>85.31</td>
+      </tr>
+
+    </tbody>
+  </table>
+
+  <hr class="shadow p-2 mb-3  rounded border border-danger mt-3">
+  <!-- resume end -->
+
+
+  <!-- my main containet -->
+
+
+  <div class="container certificate">
+    <div class="row">
+      <div class="col" style="text-transform: capitalize;text-align: justify;">
+        <span style="font-weight: bold;;font-size: 19px;">Certifiaction:</span>
+        <div class="qualification" style="font-weight: 630;">
+          <ul class="my-3">
+            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-award-fill" viewBox="0 0 16 16">
+                <path
+                  d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z" />
+                <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
+              </svg>&nbsp;&nbsp;&nbsp; Certified GIS and remote sensing by ISRO</li>
+            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-award-fill" viewBox="0 0 16 16">
+                <path
+                  d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z" />
+                <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
+              </svg>&nbsp;&nbsp;&nbsp; Certified Python devloper by Letsupgrade</li>
+
+            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-award-fill" viewBox="0 0 16 16">
+                <path
+                  d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z" />
+                <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
+              </svg>&nbsp;&nbsp;&nbsp; Certified AWS devloper by Letsupgrade</li>
+
+
+            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-award-fill" viewBox="0 0 16 16">
+                <path
+                  d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z" />
+                <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
+              </svg>&nbsp;&nbsp;&nbsp; Certification in AWS /Blockchain/JAVA</li>
+
+            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-award-fill" viewBox="0 0 16 16">
+                <path
+                  d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z" />
+                <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
+              </svg>&nbsp;&nbsp;&nbsp; Certification from cisco in networking</li>
+
+            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-award-fill" viewBox="0 0 16 16">
+                <path
+                  d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z" />
+                <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
+              </svg>&nbsp;&nbsp;&nbsp; Certification in Azure from microsoft</li>
+
+          </ul>
+        </div>
+        <span style="font-weight: bold;;font-size: 19px;">Achivements:</span>
+        <br>
+        <div class="my text-capitalize" style="font-weight: 630;">
+          <ul>
+            <li>Scholarship&nbsp;:&nbsp;DST Inspire scolarship 2016 Gov. of India</li>
+            <li>NSS:Represent Universty At state Level Camp</li>
+            <li>NSS:Completed Disaster Management traing camp organised by goverment of maharashtra and NDRF</li>
+            <li>Avishkar:District Level Winner At Avishkar State innovation competation </li>
+            <li>Co-ordinator At NYK</li>
+            <li>selected candidate for Funded project at Bajaj incubation center</li>
+
+          </ul>
+        </div>
+      </div>
+      <!-- add -->
+
+      <div class="col md-10">
+        <span style="font-weight: bold; font-size: large;">Skill set &nbsp;:&nbsp;</span>
+        <div class="progress">
+          <div class="progress-bar bg-success" role="progressbar" style="width: 68%" aria-valuenow="25"
+            aria-valuemin="0" aria-valuemax="100">HTML</div>
+        </div><br>
+        <div class="progress">
+          <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+            aria-valuemax="100">CSS</div>
+        </div><br>
+
+        <div class="progress">
+          <div class="progress-bar bg-danger" role="progressbar" style="width: 52%" aria-valuenow="100"
+            aria-valuemin="0" aria-valuemax="100">Bootstrap</div>
+        </div><br>
+        <div class="progress">
+          <div class="progress-bar bg-dark" role="progressbar" style="width: 69%" aria-valuenow="100" aria-valuemin="0"
+            aria-valuemax="100">Python</div>
+        </div><br>
+        <div class="progress">
+          <div class="progress-bar bg-warning" role="progressbar" style="width: 43%" aria-valuenow="75"
+            aria-valuemin="0" aria-valuemax="100">Java</div>
+        </div><br>
+
+        <span style="font-weight: bold;;font-size: 19px;">Basic Info:</span>
+        <br>
+        <div class="genral" style="font-weight: 630;">
+          <ul>
+            <li>Name&nbsp;:&nbsp;Vivek suresh nagre</li>
+            <li>D.O.B&nbsp;:&nbsp;12 jan 1998</li>
+            <li>Email&nbsp;:&nbsp;Viveknagre198@gmail.com</li>
+            <li>Contact:9822209466</li>
+            <li>Language:Hindi , marathi, English</li>
+            <li>Address:Balaji Nagar D.raja &nbsp;Dist:Buldhana,maharashtra</li>
+
+          </ul>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+  <hr style="border: 2px solid black;box-shadow: 2px 2px red;">
+
+
+  <!-- Jquery -->
+  <link rel="stylesheet" href="{%static 'js/jquery-3.5.1.min.js'%}">
+  <!--javascript  -->
+
+
+  <link rel="stylesheet" href="{%static 'js/bootstrap.min.js'%}">
+  <!-- seprate js link -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
