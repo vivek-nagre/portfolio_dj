@@ -51,7 +51,7 @@
     <div class="row py-lg-3">
       <div class="col-lg-6 col-md-8 mx-auto">
         <img class="rounded-circle" src="{%static 'img/vivek.jpg'%}" height="250px"><br>
-        <a href="#" class="btn btn-primary my-3">contact me </a>
+        <a href="/contact" class="btn btn-primary my-3">contact me </a>
         <a href="#" class="btn btn-secondary my-3">My projects</a>
 
 
@@ -224,13 +224,15 @@
 
   <footer>
     <div class="text-center">
+      <h6 class="float-start">Time:&nbsp;{{time}}</h6>
+      <h6 class="float-end btn btn-primary">visitor's&nbsp;:&nbsp;{{count}}</h6>
+
       <h6>&#169 all right's reserved <br>
         Designed and developed by vivek-nagre</h6>
       <div class="mx-5">
-        <h6 class="float-start">Time:&nbsp;{{time}}</h6>
-        <h6 class="float-end btn btn-primary">visitor's&nbsp;:&nbsp;{{count}}</h6>
 
       </div>
+    </div>
     </div>
   </footer>
   <!-- Jquery -->
