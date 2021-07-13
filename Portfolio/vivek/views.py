@@ -22,8 +22,11 @@ def contact(request):
         contact.phone=phone
         contact.subject=subject
         contact.save()
-        return HttpResponse("<h1>thank you </h1>")
+        return render(request,'vivek/thanks.html')
 
          
 
     return render(request,'vivek/contact.html')
+
+def project(request):
+    return render(request, 'vivek/projects.html')

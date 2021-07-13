@@ -21,4 +21,5 @@ urlpatterns = [
     path('', views.index),
     path('contact', views.contact),
     path('home', views.index),
+    path('projects', views.project),
 ]
